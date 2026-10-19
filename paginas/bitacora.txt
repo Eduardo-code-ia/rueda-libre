@@ -1,0 +1,19 @@
+URL completa (PAGINA): file:///home/cohorte8/rueda-libre/index.html
+Protocolo: 
+Host: 
+Puerto: 
+Ruta:
+Metodo de la petición: GET
+Codigo de estado: 200
+
+ingreso de datos a pagina equivocada
+
+URL completa (PAGINA): file:///home/cohorte8/rueda-libre/promocion.html
+Codigo de estado: 404 not found, sinifica que no encontro la pagina. 
+en mi caso solamente aparecio vacio con un logo de una X al principio. 
+
+ROLES                                                                                           EJEMPLO : CASA
+
+HTML: Cumplirá el rol de interpreté                                                             OBRA NEGRA: (LADRILLOS, ARENA, CEMENTO, ACERO, CABLES)
+CSS: dara vida al proyecto con estilos y formas llamativas                                      OBRA BLANCA: (PINTURA, ESTUCO, BALDOSA, PEGACOR)
+JavaScript: es la mente del proyecto, ejecutará metodos que darán eficiencia y utilidades.      DUEÑO: (PRENDE LA LUZ, LAVA PLATOS, VA DE UNA HABITACIÓN COGE ALGO Y VA A OTRA)
