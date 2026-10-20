@@ -17,3 +17,16 @@ ROLES                                                                           
 HTML: Cumplirá el rol de interpreté                                                             OBRA NEGRA: (LADRILLOS, ARENA, CEMENTO, ACERO, CABLES)
 CSS: dara vida al proyecto con estilos y formas llamativas                                      OBRA BLANCA: (PINTURA, ESTUCO, BALDOSA, PEGACOR)
 JavaScript: es la mente del proyecto, ejecutará metodos que darán eficiencia y utilidades.      DUEÑO: (PRENDE LA LUZ, LAVA PLATOS, VA DE UNA HABITACIÓN COGE ALGO Y VA A OTRA)
+
+
+Catálogo de Alquiler
+
+• Bicicleta Urbana Clásica (City Cruiser)
+	• Uso principal: Recorridos turísticos por la ciudad, paseos relajados y movilidad urbana diaria.
+	• Características clave: Postura erguida ultracómoda, cuadro de barra baja para fácil acceso, incluye canasta delantera, guardabarros y luces integradas.
+• Bicicleta Eléctrica de Trekking (E-Bike Explorer)
+	• Uso principal: Rutas largas, trayectos con pendientes pronunciadas y exploración sin límites con menor esfuerzo.
+	• Características clave: Motor de asistencia al pedaleo de alta autonomía, batería integrada de larga duración, suspensión delantera y neumáticos mixtos aptos para asfalto y tierra compacta.
+• Bicicleta de Montaña Rígida (MTB Trail)
+	• Uso principal: Rutas de aventura por senderos, caminos de tierra, zonas rurales y terrenos irregulares.
+	• Características clave: Cuadro de aluminio ligero y resistente, suspensión delantera bloqueable, frenos de disco hidráulicos para máxima seguridad y transmisión de múltiples velocidades.
