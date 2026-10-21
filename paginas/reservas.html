@@ -25,11 +25,74 @@
 </header>
 <main>
     <section>
-<h1>Reserva ahora</h1>
+   <h1>Reserva ahora</h1>
    <h2>Horario de atención</h2>
    <p>Horario de atención: lunes a viernes de 7:00 a. m. a 7:00 p. m.; sábados, domingos y festivos de 6:00 a. m. a 2:00 p. m.</p> 
     </section>
    
+    <section>
+        <h3>Formulario de reserva</h3>
+        <form action="POST">
+            <fieldset class="style-datos">
+                <legend>Tus datos</legend>
+                <label for="nombre">Nombre(s)</label>
+                <input type="text" id="nombre">
+                
+                <label for="apellido">Apellido(s)</label>
+                <input type="text" id="apellido">
+
+                <label for="tipodoc">Tipo de documento</label>
+                <input type="text" id="tipodoc" list="list-doc">
+                <datalist id="list-doc">
+                    <option value="TI-Tarjeta de identidad"></option>
+                    <option value="CC-Cedula de ciudadania"></option>
+                    <option value="CE-Cedula de extranjeria"></option>
+                </datalist>
+                <label for="correo">Correo electrónico</label>
+                <input type="text"  id="correo">
+                 <label for="Celular">Celular</label>
+                <input type="text"  id="Celular">
+            </fieldset>
+            <fieldset class="style-datos">
+                <legend>Tu alquiler</legend>
+                <label for="fecha_alquiler">Fecha del alquiler</label>
+                <input type="text" id="fecha_alquiler">
+                <label for="tipobici">Tipo de bicicleta</label>
+                <input type="text" id="tipobici" list="list-tipobici">
+                <datalist id="list-tipobici">
+                    <option value="Urbana"></option>
+                    <option value="Montaña"></option>
+                    <option value="Eléctrica"></option>
+                </datalist>
+                 <label for="tipoplan">Tipo de plan</label>
+                <input type="text" id="tipoplan" list="list-tipoplan">
+                <datalist id="list-tipoplan">
+                    <option value="1 hora"></option>
+                    <option value="Medio día"></option>
+                    <option value="Día completo"></option>
+                </datalist>
+                <label for="cant-bici">Cantidad de bicicleta</label>
+                <input type="text" id="cant-bici">
+
+                 <label for="ruta-reco">Selecciona el recorrido guiado</label>
+                <input type="text" id="ruta-reco" list="list-ruta-reco">
+                <datalist id="list-ruta-reco">
+                    <option value="Rios y parques"></option>
+                    <option value="Sabores de barrio"></option>
+                    <option value="Reto Las Palmas"></option>
+                </datalist>
+        
+            </fieldset>
+            <fieldset>
+                <legend>Confirmación</legend>
+                <label for="comentario">Comentarios</label>
+                <input type="text" id="comentario">
+
+                <label for="Terminos">Terminos y condiciones ver-> <a href="">aqui</a> Acepta aqui-></label>
+                <input type="checkbox" id="Terminos">
+            </fieldset>
+        </form>
+    </section>
 </main>
 <footer>
     <p>Rueda libre</p>

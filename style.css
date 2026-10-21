@@ -56,3 +56,8 @@ body{
     margin: 0%;
 }
     
+.style-datos{
+    border: 1px solid #282A35;
+    display: grid;
+    float: left;
+}
