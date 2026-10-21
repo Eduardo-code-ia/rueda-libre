@@ -42,3 +42,7 @@ Rutas:
 	Reserva ->Inicio -> index.html
 	Reserva ->Tarifa -> tarifas.html
 	Reserva ->Reserva -> reservas.html
+
+
+	Justificación del porque coloque un div en menu:
+	Me es util para darle forma y estilo, poderlo mover a mi antojo. 
