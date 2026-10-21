@@ -30,3 +30,15 @@ Catálogo de Alquiler
 • Bicicleta de Montaña Rígida (MTB Trail)
 	• Uso principal: Rutas de aventura por senderos, caminos de tierra, zonas rurales y terrenos irregulares.
 	• Características clave: Cuadro de aluminio ligero y resistente, suspensión delantera bloqueable, frenos de disco hidráulicos para máxima seguridad y transmisión de múltiples velocidades.
+
+
+Rutas:
+	Inicio ->Inicio -> index.html
+	Inicio ->Tarifa -> tarifas.html
+	Inicio ->Reserva -> reservas.html
+	Tarifa ->Inicio -> index.html
+	Tarifa ->Tarifa -> tarifas.html
+	Tarifa ->Reserva -> reservas.html
+	Reserva ->Inicio -> index.html
+	Reserva ->Tarifa -> tarifas.html
+	Reserva ->Reserva -> reservas.html
