@@ -36,46 +36,43 @@
             <fieldset class="style-datos">
                 <legend>Tus datos</legend>
                 <label for="nombre">Nombre(s)</label>
-                <input type="text" id="nombre">
+                <input type="text" id="nombre" minlength="3" required>
                 
                 <label for="apellido">Apellido(s)</label>
-                <input type="text" id="apellido">
+                <input type="text" id="apellido" minlength="3" required>
 
-                <label for="tipodoc">Tipo de documento</label>
-                <input type="text" id="tipodoc" list="list-doc">
-                <datalist id="list-doc">
-                    <option value="TI-Tarjeta de identidad"></option>
-                    <option value="CC-Cedula de ciudadania"></option>
-                    <option value="CE-Cedula de extranjeria"></option>
-                </datalist>
+                <label for="doc">Numero de documento</label>
+                <input type="number" id="doc" minlength="5" maxlength="10" required>
                 <label for="correo">Correo electrónico</label>
-                <input type="text"  id="correo">
+                <input type="email"  id="correo" required>
                  <label for="Celular">Celular</label>
-                <input type="text"  id="Celular">
+                <input type="tel" pattern="3[0-9]{9}" value="3" id="Celular" maxlength="10">
             </fieldset>
+            
+
             <fieldset class="style-datos">
                 <legend>Tu alquiler</legend>
                 <label for="fecha_alquiler">Fecha del alquiler</label>
-                <input type="text" id="fecha_alquiler">
+                <input type="date" id="fecha_alquiler" min="2026-11-01" max="2026-12-31" required>
                 <label for="tipobici">Tipo de bicicleta</label>
-                <input type="text" id="tipobici" list="list-tipobici">
+                <input type="text" id="tipobici" list="list-tipobici" required>
                 <datalist id="list-tipobici">
                     <option value="Urbana"></option>
                     <option value="Montaña"></option>
                     <option value="Eléctrica"></option>
                 </datalist>
                  <label for="tipoplan">Tipo de plan</label>
-                <input type="text" id="tipoplan" list="list-tipoplan">
+                <input type="text" id="tipoplan" list="list-tipoplan" required>
                 <datalist id="list-tipoplan">
                     <option value="1 hora"></option>
                     <option value="Medio día"></option>
                     <option value="Día completo"></option>
                 </datalist>
                 <label for="cant-bici">Cantidad de bicicleta</label>
-                <input type="text" id="cant-bici">
+                <input type="text" id="cant-bici" required min="1" max="6" maxlength="1">
 
                  <label for="ruta-reco">Selecciona el recorrido guiado</label>
-                <input type="text" id="ruta-reco" list="list-ruta-reco">
+                <input type="text" id="ruta-reco" list="list-ruta-reco" required>
                 <datalist id="list-ruta-reco">
                     <option value="Rios y parques"></option>
                     <option value="Sabores de barrio"></option>
@@ -86,12 +83,15 @@
             <fieldset>
                 <legend>Confirmación</legend>
                 <label for="comentario">Comentarios</label>
-                <input type="text" id="comentario">
+                <input type="text" id="comentario" maxlength="300">
 
-                <label for="Terminos">Terminos y condiciones ver-> <a href="">aqui</a> Acepta aqui-></label>
-                <input type="checkbox" id="Terminos">
+                <label for="Terminos">Politicas de alquiler ver-> <a href="">aqui</a> Acepta aqui-></label>
+                <input type="checkbox" id="Terminos" required>
+                <button type="submit">Enviar formulario</button>
             </fieldset>
         </form>
+
+        
     </section>
 </main>
 <footer>
