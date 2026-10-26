@@ -1,68 +1,52 @@
-
-:root{
+:root {
 
     /*Paleta de colores*/
-    
-/*  Verde Ruta      #1E7A4F     Botones y enlaces
+
+    /*  Verde Ruta      #1E7A4F     Botones y enlaces
     Naranja Pedal   #F39A2B     Destacados y botones secundarios
     Azul Noche      #14213D     Títulos y encabezado
     Crema           #FAF6EF     Fondo general
     Gris Asfalto    #5B6470     Texto secundario */
---color-botton-link:#11442c;   /*check*/
---color-outstanding-botton-sec: #F39A2B;
---color-titlehead-head: #14213D;
---color-background-general:#FAF6EF;
---color-sec-text:#5B6470;
+    --color-botton-link: #11442c;
+    /*check*/
+    --color-outstanding-botton-sec: #F39A2B;
+    --color-titlehead-head: #14213D;
+    --color-background-general: #FAF6EF;
+    --color-sec-text: #5B6470;
 
-/*Tipografías*/
+    /*Tipografías*/
 
-/* Montserrat       (grosor 700)                para títulos*/
-/* Open Sans        (grosores 400 y 600)        para textos*/
+    /* Montserrat       (grosor 700)                para títulos*/
+    /* Open Sans        (grosores 400 y 600)        para textos*/
 
---text-tittle: 'Montserrat', sans-serif;
---text-tittle-size:700;
---text:'Open Sans', sans-serif;
---text-size:400;
+    --text-tittle: 'Montserrat', sans-serif;
+    --text-tittle-size: 700;
+    --text: 'Open Sans', sans-serif;
+    --text-size: 400;
 
-/*Espaciado*/
+    /*Espaciado*/
 
-/*Sm- Small*/
+    /*Sm- Small*/
 
---spacing-sm:0.5rem;
-/*Md- Middle*/
---spacing-md:1rem;
-/*Lg- Large*/
---spacing-lg:2rem;
+    --spacing-sm: 0.5rem;
+    /*Md- Middle*/
+    --spacing-md: 1rem;
+    /*Lg- Large*/
+    --spacing-lg: 2rem;
 
 }
 
 
-
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-h1,h2,h3{
+h1,
+h2,
+h3 {
     color: var(--color-titlehead-head);
     font-family: var(--text-tittle);
     font-weight: var(--text-tittle-size);
-    margin: cal(var(--spacing-md) * 5);
+    margin: var(--spacing-md);
 }
 
-body{
+body {
     background-color: var(--color-background-general);
     font-family: var(--text);
     font-weight: var(--text-size);
@@ -72,20 +56,56 @@ body{
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
 
-.botton-link{
+
+#menu ul li a {
     color: var(--color-botton-link);
 }
 
-.sec-text{
+p{
     color: var(--color-sec-text);
+}
+a, button{
+    color: var(--color-botton-link);
+}
+/* Clase del compañero*/
+
+a.activo {
+    color: var(--color-botton-link);
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#menu ul li a:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#menu ul li a:focus{
+    background-color:#d4cfc5;
+    border: none;
+    border: 1px solid var(--color-botton-link);
+
 }
 
 
 
+.reservar_ahora {
+    border:1px solid var(--color-titlehead-head);
+    border-radius:10px;    
+    background-color: var(--color-titlehead-head);
+    color: var(--color-background-general);
+    padding: 10px 10px 10px 10px;
+}
+
+#formulario fieldset input:focus{
+    background-color:#d4cfc5;
+    border-radius: 10px;
+}
 
 
 

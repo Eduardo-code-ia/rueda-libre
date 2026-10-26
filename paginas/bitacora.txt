@@ -160,3 +160,12 @@ PRUEBA 8
 
 	En la paleta de colores para el texto, mejor le propongo:
 	Verde Ruta #1E7A4F Botones y enlaces, otro color más fuerte sin perder el mismo #11442c.
+
+
+	3.2
+
+	No se ve que se aplique el diseño que el compañero coloco.
+
+la regla #menu a utiliza un identificador (ID), por lo que tiene más
+ peso que la clase .activo y termina ganando, impidiendo que se aplique el color #11442c.
+ 
