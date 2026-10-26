@@ -32,10 +32,9 @@
     /*Md- Middle*/
     --spacing-md: 1rem;
     /*Lg- Large*/
-    --spacing-lg: 2rem;
+    --spacing-lg: 4rem;
 
 }
-
 
 h1,
 h2,
@@ -105,13 +104,49 @@ a.activo {
 #formulario fieldset input:focus{
     background-color:#d4cfc5;
     border-radius: 10px;
+
+}
+
+#formulario fieldset label{
+    display: block;
+}
+
+#formulario fieldset{
+    text-align: center;
+}
+
+main{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: var(--spacing-sm);
+
+}
+
+main section{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: var(--spacing-md);
+    text-align: center;
+  
+}
+
+footer{
+    place-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: top;
+    margin-left: 28%;
+    margin-right: 28%;
+    text-align: center;
+    padding: 0px;
+    padding-top: 0px;
 }
 
 
+*{
+border: 1px solid black;
 
-
-
-
+}
 
 
 
