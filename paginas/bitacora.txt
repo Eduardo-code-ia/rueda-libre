@@ -151,3 +151,9 @@ PRUEBA 8
 	CANTIDAD DE BICICLETA: 2
 	SELECCIONA EL RECORRIDO GUIADO: RIOS Y PARQUES
 	RESULTADO: ENVIO FORMULARIO EXITOSO
+
+
+	Se corrije el alt de las imagenes de las paginas 
+	index.html
+	reservas.html
+	tarifa.html
