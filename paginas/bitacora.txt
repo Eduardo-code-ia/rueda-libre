@@ -157,3 +157,6 @@ PRUEBA 8
 	index.html
 	reservas.html
 	tarifa.html
+
+	En la paleta de colores para el texto, mejor le propongo:
+	Verde Ruta #1E7A4F Botones y enlaces, otro color más fuerte sin perder el mismo #11442c.
