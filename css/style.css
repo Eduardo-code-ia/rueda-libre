@@ -43,6 +43,7 @@ h3 {
     font-family: var(--text-tittle);
     font-weight: var(--text-tittle-size);
     margin: var(--spacing-md);
+    text-align: center;
 }
 
 body {
@@ -59,24 +60,31 @@ body {
     box-sizing: border-box;
 }
 
+.banner{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 28%;
+    margin-right: 28%;
+    padding-left: 15%;
+    padding-right: 15%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+}
 
 #menu ul li a {
     color: var(--color-botton-link);
-}
-
-p{
-    color: var(--color-sec-text);
-}
-a, button{
-    color: var(--color-botton-link);
-}
-/* Clase del compañero*/
-
-a.activo {
-    color: var(--color-botton-link);
-    font-weight: 600;
-    border: 2px solid black;
+    border: 2px solid var(--color-botton-link);
     border-radius: 10px;
+    display: block;
 }
 
 #menu ul li a:hover{
@@ -88,10 +96,23 @@ a.activo {
     background-color:#d4cfc5;
     border: none;
     border: 1px solid var(--color-botton-link);
-
 }
 
 
+p{
+    color: var(--color-sec-text);
+    text-align: center;
+}
+a, button{
+    color: var(--color-botton-link);
+}
+/* Clase del compañero*/
+
+a.activo {
+    color: var(--color-botton-link);
+    font-weight: 700;
+    weight: bold;
+}
 
 .reservar_ahora {
     border:1px solid var(--color-titlehead-head);
@@ -144,8 +165,7 @@ footer{
 
 
 *{
-border: 1px solid black;
-
+border: 0px solid black;
 }
 
 
