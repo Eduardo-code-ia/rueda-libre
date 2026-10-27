@@ -63,7 +63,7 @@ body {
 .banner{
     width: 100%;
     display: flex;
-    margin: auto;
+    margin: 0px;
     margin-top: 0%;
     padding: 0%;
 }
@@ -75,11 +75,15 @@ body {
     margin-right: 28%;
     padding-left: 15%;
     padding-right: 15%;
-    overflow: hidden;
     border-radius: 10px;
     display: flex;
+    background-color: var(--color-sec-text);
 }
 
+#menu ul li{
+    margin-left: 5%;
+    color: var(--color-background-general);
+}
 #menu ul li a {
     color: var(--color-botton-link);
     border: 2px solid var(--color-botton-link);
@@ -111,7 +115,7 @@ a, button{
 a.activo {
     color: var(--color-botton-link);
     font-weight: 700;
-    weight: bold;
+    
 }
 
 .reservar_ahora {
@@ -133,7 +137,8 @@ a.activo {
 }
 
 #formulario fieldset{
-    text-align: center;
+    border-top: 1px solid black;
+
 }
 
 main{
@@ -164,18 +169,56 @@ footer{
 }
 
 
-*{
-border: 0px solid black;
+.services-container{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap:var(--spacing-lg);
+padding: var(--spacing-lg);
+}
+.service-card{
+    background-color: #f0d9be;
+    border: 1px solid #f0e8db;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-content{
+    padding: var(--spacing-sm);
+    display: flex;
+    flex-direction: ;
 }
 
 
+ .service-content {
+      padding: var(--spacing-md); /* Relleno de la tarjeta */
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
 
+    .service-title {
+      margin: 0;
+      font-size: 1.25rem;
+      color: var(--text-main);
+      font-family: sans-serif;
+    }
 
-
-
-
-
-
+    .service-description {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      font-family: sans-serif;
+    }
 
 
 
