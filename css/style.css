@@ -321,17 +321,17 @@ padding: var(--spacing-lg);
 }
 
 
-@media (max-with: 400px) {
+@media (min-with: 768px) {
   body {
     padding: 30px;
     max-width: 1200px;
     margin: 0 auto;
   }
-    #menu h1{
+   /* #menu h1{
         
         flex-direction: row;
         justify-content: space-between;
-    }
+    }*/
 }
 
 .columna-imagen{
