@@ -169,3 +169,6 @@ PRUEBA 8
 la regla #menu a utiliza un identificador (ID), por lo que tiene más
  peso que la clase .activo y termina ganando, impidiendo que se aplique el color #11442c.
  
+
+He decidido agregar funcionalidades anticipadamente porque veia que puedo aprender un poco más acerca de html y css. 
+Pero en la sección semana 2, haré lo estrictamente indicado. 

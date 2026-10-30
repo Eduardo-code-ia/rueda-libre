@@ -68,39 +68,47 @@ body {
     padding: 0%;
 }
 
-#menu ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 28%;
-    margin-right: 28%;
-    padding-left: 15%;
-    padding-right: 15%;
-    border-radius: 10px;
-    display: flex;
+#menu {
     background-color: var(--color-sec-text);
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu h1{
+    color: var(--color-background-general);
+}
+#menu ul {
+ list-style-type: none; /*
+   */  border-radius: 10px;
+    background-color: var(--color-sec-text);
+    display: flex;
+    align-content: space-around;
+    
 }
 
 #menu ul li{
-    margin-left: 5%;
     color: var(--color-background-general);
+    margin-left: var(--spacing-md);
 }
 #menu ul li a {
     color: var(--color-background-general);
     text-decoration-color: var(--color-background-general);
     border: 2px solid var(--color-botton-link);
     border-radius: 10px;
-    display: block;
 }
 
 #menu ul li a:hover{
-    border: 2px solid black;
+    border: 2px solid var(--color-titlehead-head);
     border-radius: 10px;
+    color: black;
+    background-color: var(--color-background-general);
+
 }
 
 #menu ul li a:focus{
-    background-color:#d4cfc5;
-    border: none;
-    border: 1px solid var(--color-botton-link);
+    background-color:var(--color-background-general);
+    color: var(--color-titlehead-head);
+
 }
 
 
@@ -111,7 +119,6 @@ p{
 a, button{
     color: var(--color-botton-link);
 }
-/* Clase del compañero*/
 
 a.activo {
     color: var(--color-botton-link);
@@ -125,10 +132,11 @@ a.activo {
     background-color: var(--color-titlehead-head);
     color: var(--color-background-general);
     padding: 10px 10px 10px 10px;
+    display: block;
 }
 
 #formulario fieldset input:focus{
-    background-color:#d4cfc5;
+    background-color: var(--color-outstanding-botton-sec);
     border-radius: 10px;
 
 }
@@ -138,19 +146,18 @@ a.activo {
 }
 
 #formulario fieldset{
-    border-top: 1px solid black;
+    border-top: 1px solid var(--color-titlehead-head);
+    border-radius: 10%;
 
 }
 
 main{
-    margin-left: 30%;
-    margin-right: 30%;
     margin-top: var(--spacing-sm);
 
 }
 
 main section{
-    border: 1px solid black;
+    border: 1px solid var(--color-titlehead-head);
     border-radius: 10px;
     margin: var(--spacing-md);
     text-align: center;
@@ -161,12 +168,12 @@ footer{
     place-items: center;
     border: 1px solid black;
     border-radius: 10px;
-    margin: top;
-    margin-left: 28%;
-    margin-right: 28%;
     text-align: center;
     padding: 0px;
     padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .marquee{
@@ -257,17 +264,17 @@ padding: var(--spacing-lg);
     transition: background-color 0.2s ease;
 }
 
+.section-step-by-step ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
 
 
-
-
-
-
-
-
-
-
-
+.section-step-by-step ol{
+    list-style-type: none;
+}
 
 
 
