@@ -149,6 +149,8 @@ a.activo {
 #formulario fieldset{
     border-top: 1px solid var(--color-titlehead-head);
     border-radius: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
@@ -180,14 +182,13 @@ footer{
 .marquee{
     overflow: hidden;
     width: 100%;
-    background-color: var(--color-sec-text);
     padding: var(--spacing-sm);
     white-space: nowrap;
     position: relative;
 }
 .marquee-content{
 display: flex;
-gap:30px;
+gap:50px;
 width: max-content;
 animation:scrollInfinito 25s linear infinite;
 }
@@ -200,7 +201,7 @@ animation:scrollInfinito 25s linear infinite;
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(100%);
     }
 }
 .services-container{
@@ -295,14 +296,51 @@ padding: var(--spacing-lg);
     padding: var(--spacing-sm);
     display: flexbox;
 }
+.card-fleet img{
+    width: 80%;
+    height: 40%;
+}
+
+.portada{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+}
+.portada h1{
+    font-size: 5.5rem;
+}
 
 
+.our-fleet2{
+        display: grid;
+        gap: var(--spacing-sm);
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: var(--spacing-sm);
+
+}
 
 
+@media (max-with: 400px) {
+  body {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+    #menu h1{
+        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
 
+.columna-imagen{
+overflow: hidden;
+}
 
-
-
+.columna-imagen img{
+    object-fit: cover;
+}
 
 
 

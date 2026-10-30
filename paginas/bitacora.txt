@@ -177,3 +177,4 @@ Pero en la sección semana 2, haré lo estrictamente indicado.
 SEMANA 2
 
 1.1 NOTAS "Al estrechar la pantalla, veo que el menu no se corre al siguiente y quedan por fuera de la linea" solo deje un margin-left para darle espacio porque con gap no pude. 
+1.2 NOTAS "1280PX = 3 columnas, 900px = 2 columnas, 500px = 1 columna"
