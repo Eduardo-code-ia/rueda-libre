@@ -85,7 +85,8 @@ body {
     color: var(--color-background-general);
 }
 #menu ul li a {
-    color: var(--color-botton-link);
+    color: var(--color-background-general);
+    text-decoration-color: var(--color-background-general);
     border: 2px solid var(--color-botton-link);
     border-radius: 10px;
     display: block;
@@ -168,10 +169,35 @@ footer{
     padding-top: 0px;
 }
 
+.marquee{
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--color-sec-text);
+    padding: var(--spacing-sm);
+    white-space: nowrap;
+    position: relative;
+}
+.marquee-content{
+display: flex;
+gap:30px;
+width: max-content;
+animation:scrollInfinito 25s linear infinite;
+}
+.marquee-content:hover {
+    animation-play-state: paused;
+}
 
+@keyframes scrollInfinito {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
 .services-container{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(30%, 45%));
 gap:var(--spacing-lg);
 padding: var(--spacing-lg);
 }
@@ -194,36 +220,42 @@ padding: var(--spacing-lg);
 .service-content{
     padding: var(--spacing-sm);
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
+    gap: var(--spacing-sm);
 }
-
-
- .service-content {
-      padding: var(--spacing-md); /* Relleno de la tarjeta */
-      display: flex;
-      flex-direction: column;
-      gap: var(--spacing-sm);
-    }
 
     .service-title {
       margin: 0;
       font-size: 1.25rem;
-      color: var(--text-main);
-      font-family: sans-serif;
     }
 
     .service-description {
-      margin: 0;
+        margin: 0;
       font-size: 0.95rem;
-      color: var(--color-text-muted);
       line-height: 1.5;
-      font-family: sans-serif;
+      text-align: justify;
     }
 
+.table-container {
+    overflow-x: auto;
+    border-radius: 10%;
+}
 
+.custom-table{
+    border-collapse: collapse;
+    min-width: 600px;
+}
 
+.custom-table th{
+    background-color: var(--color-titlehead-head);
+    color: var(--color-background-general);
 
+}
 
+.custom-table tbody tr:hover{
+    background-color: var(--color-outstanding-botton-sec);
+    transition: background-color 0.2s ease;
+}
 
 
 
