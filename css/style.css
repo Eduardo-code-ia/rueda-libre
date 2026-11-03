@@ -322,10 +322,7 @@ padding: var(--spacing-lg);
 
 @media (max-width: 768px
 ) {
-  *{    
-    border: 1px solid black;
-  }
-
+  
   #menu{
     display: grid;
 
