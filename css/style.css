@@ -317,21 +317,88 @@ padding: var(--spacing-lg);
         gap: var(--spacing-sm);
         grid-template-columns: 1fr 1fr 1fr;
         padding: var(--spacing-sm);
+}
+
+
+@media (max-width: 768px
+) {
+  *{    
+    border: 1px solid black;
+  }
+
+  #menu{
+    display: grid;
 
 }
 
 
-@media (min-with: 768px) {
-  body {
-    padding: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-   /* #menu h1{
-        
-        flex-direction: row;
-        justify-content: space-between;
-    }*/
+#menu ul{
+    display: block;
+
+}
+
+#menu ul li{
+    margin-top: var(--spacing-sm);
+}
+
+  .portada {
+    grid-template-columns: 1fr;
+} 
+
+.portada div h1{
+    font-size: 2rem;
+}
+
+.our-fleet{
+    display: block;
+}
+
+.card-fleet{
+    margin-top: var(--spacing-sm);
+}
+
+.our-fleet2{
+    display: block;
+}
+}
+
+@media (max-width: 360px) {
+ 
+#menu{
+    display: grid;
+
+}
+
+
+#menu ul{
+    display: block;
+
+}
+
+#menu ul li{
+    margin-top: var(--spacing-sm);
+}
+
+  .portada {
+    grid-template-columns: 1fr;
+} 
+
+.portada div h1{
+    font-size: 2rem;
+}
+
+.our-fleet{
+    display: block;
+}
+
+.card-fleet{
+    margin-top: var(--spacing-sm);
+}
+
+.our-fleet2{
+    display: block;
+}
+
 }
 
 .columna-imagen{

@@ -177,4 +177,8 @@ Pero en la sección semana 2, haré lo estrictamente indicado.
 SEMANA 2
 
 1.1 NOTAS "Al estrechar la pantalla, veo que el menu no se corre al siguiente y quedan por fuera de la linea" solo deje un margin-left para darle espacio porque con gap no pude. 
-1.2 NOTAS "1280PX = 3 columnas, 900px = 2 columnas, 500px = 1 columna"
+1.2 NOTAS "1280PX = 3 columnas, 900px = 2 columnas, 500px = 1 columna"}
+
+
+1.4 NOTAS: "Se veia pegado no se podia navegar correctamente en un tamaño de 360px, ahora lo solucione con @media"
+1.4 NOTAS: "Se ve apretado., ahora ya no se ve tan pegado, copie el codigo que coloque en 360px y lo acomode con un min-width a 768px"
